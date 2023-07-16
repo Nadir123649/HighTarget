@@ -1,0 +1,49 @@
+//.social-links{
+//    @extend %listreset;
+//    position: relative;
+//    overflow: hidden;
+//    display: flex;
+//    gap: 37px;
+//
+//    @include media('<desktop'){
+//        flex-grow: 1;
+//        justify-content: center;
+//    }
+//
+//    @include media('<phone'){
+//        flex: 1 1 100%;
+//        justify-content: start;
+//    }
+//
+//    li{
+//        display: inline-block;
+//        vertical-align: top;
+//        letter-spacing: 0;
+//
+//        @include media('<desktop'){
+//            margin-right: 15px;
+//        }
+//
+//        @include media('<phone'){
+//            margin-right: 0;
+//        }
+//    }
+//
+//    a{
+//        display: block;
+//        text-align: center;
+//        color: #fff;
+//
+//        &:hover{
+//            color: $primary-yellow;
+//        }
+//
+//        i{
+//            font-size: 20px;
+//            display: block;
+//            @include media('<phone'){
+//                font-size: 18px;
+//            }
+//        }
+//    }
+//}
